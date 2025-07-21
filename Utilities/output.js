@@ -1,12 +1,19 @@
 // output related utility functions
 
-function print(data) {
+function print(data, repeat = 1) {
 	/**
 	 * Prints the output without a new line.
 	 * @param {any} data - Data to be printed
 	 */
 	let strData = String(data);
-	process.stdout.write(strData);
+	if (repeat == 0) return;
+	if (repeat > 1) {
+		for (let i = 1; i <= repeat; i++) {
+			process.stdout.write(strData);
+		}
+	} else {
+		process.stdout.write(strData);
+	}
 }
 
 function printLine() {
