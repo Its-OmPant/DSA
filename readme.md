@@ -7,3 +7,4 @@ Problems solutions will be available in javascript language
 
 1. Patterns (Logic Building)
 2. Maths
+3. Recursion (Basic)
