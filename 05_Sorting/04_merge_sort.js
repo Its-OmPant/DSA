@@ -1,6 +1,9 @@
 /**
  * Merge Sort:
- * Merge sort is a Divide and conquer based algorithm for sorting
+ * Merge sort is a Divide and conquer based algorithm for sorting.
+ *
+ * TC: o(nlogn) for all
+ * SC: o(n) due to extra array at merge step
  */
 
 import { print, printLine } from "../Utilities/output.js";
